@@ -1,0 +1,27 @@
+//IAS PROJECT ON Machine learning aided Android malware classification
+
+Please read the instructions carefully and then proceed
+
+// You should have apk files before starting with the procedure.
+// Reverse engineering is taking place where apk file is being converted to java code.
+
+// APK TO DEX
+1) Move the folder containing apk [/*PATH:: TestCases/apk*/] to same directory as apk2dex.sh[/*PATH:: SourceFiles*/]
+2) Open terminal from that folder by right click + open in terminal
+3) Run the sh file "apk2dex.sh" by typing ./apk2dex.sh
+4) Copy paste the name of the folder and press enter.
+5) Find classes.dex file inside the apk folder which confirms the conversion from apk to dex.
+
+//DEX TO JAR
+1) Extract the  "dex2jar-0.0.9.15.zip".[/*PATH:: SourceFiles/dex2jar-0.0.9.15.zip*/]   //Used to convert dex file to jar
+2) Open terminal from dex2jar-0.0.9.15 folder [/*Path:: /dex2jar-0.0.9.15*/].
+3) Copy your dex file into dex2jar-0.0.9.15 folder.
+4) Run the following code in terminal "sh dex dex2jar.sh <Dex file name>.dex" or you can use apk as well "sh dex dex2jar.sh <Some apk file>"
+5) Compressed Jar folder will be created inside the dex2jar-0.0.9.15 folder.
+
+
+//JAR TO JAVA CODE
+1) Find "jar2java.sh" file in //SourceFiles/jar2java.sh
+2) Open terminal from that folder
+3) Run the sh file using "./jar2java.sh" and Enter [or/*Copy paste*/] the name of the jar file["with .jar extension"] and press enter
+4) Merged java code will be written into "new.java" file which will be present in "/.<jar_filename>.tmp folder" of extracted jar file.
