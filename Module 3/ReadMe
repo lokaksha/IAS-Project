@@ -1,0 +1,10 @@
+// Classifiers on new.csv
+
+MODULE 3:
+
+Step 1: Navigate to Module 3/Source files and Move new.csv from /test cases to /Source files.
+Step 2: Run svm.py code present in SourceFiles on new.csv
+Step 3: Run rf.py code present in SourceFiles on new.csv
+Step 4: Run nb.py code present in SourceFiles on new.csv 
+Step 5: Run ensemble.py code present in SourceFiles on new.csv
+Step 6: Result of all classifiers can be seen in terminal/cmd.

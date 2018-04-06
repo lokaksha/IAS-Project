@@ -1,0 +1,10 @@
+// JavaFiles consists of Merge JavaCode of all Apk Files
+
+MODULE 2:
+
+50 Apk Files have been pre-processed manually to obtain Merge Java Code. As when Bag of Words is applied on Merge Java code we were getting thousands of features due to presence of comments (/**/) and hashes [#] A python code is written to delete these anamoly and then bag of words representation is done using feature extraction.
+
+Step 1: PreProcess apk file to get Merged Java Code.
+Step 2: Run FeatureExtraction.py code present in SourceFiles to get Myfile.csv 
+Step 3: Run FeatureReduction.py code present in SourceFiles on Myfile.csv to get New.csv [This uses low variance filter data dimension reduction technique]
+Step 4: New.csv contains optimised dataset with best features.
