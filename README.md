@@ -1,6 +1,7 @@
 # IAS-Project
-Machine learning aided Android malware classification
 Information Assurance and Security Project 6th semester
+
+Machine learning aided Android malware classification
 
 The widespread adoption of Android devices and their capability to access significant private and confidential information have resulted in these devices being targeted by malware developers. Existing Android malware analysis techniques can be broadly categorized
 into static and dynamic analysis. In this paper, we present two machine learning aided approaches for static analysis of Android malware. The first approach is based on permissions
