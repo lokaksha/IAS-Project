@@ -1,5 +1,3 @@
-# IAS-Project
-
 Information Assurance and Security Project 6th semester
 
 Machine learning aided Android malware classification
