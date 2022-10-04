@@ -23,5 +23,5 @@ Please read the instructions carefully and then proceed
 //JAR TO JAVA CODE
 1) Find "jar2java.sh" file in //SourceFiles/jar2java.sh
 2) Open terminal from that folder
-3) Run the sh file using "./jar2java.sh" and Enter [or/*Copy paste*/] the name of the jar file["with .jar extension"] and press enter
+3) Run the sh file using "./jar2java.sh" and Enter [or /*Copy paste*/] the name of the jar file ["with .jar extension"] and press enter
 4) Merged java code will be written into "new.java" file which will be present in "/.<jar_filename>.tmp folder" of extracted jar file.
