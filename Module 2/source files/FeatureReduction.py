@@ -22,6 +22,7 @@ while i < n:
 		n-=1
 	i+=1
 
+# Print number of features
 print n
 
 with open('new.csv','w') as f:
